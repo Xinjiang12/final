@@ -55,6 +55,8 @@ public class Bokning {
                     }
                 } catch (Exception e) {
                     System.out.println("Error.");
+                    scanner.next();
+
                 }
             }
         }
